@@ -21,11 +21,11 @@ public class RestSpotifyService implements SpotifyService {
 
     private RestTemplate restTemplate = new RestTemplate();
 
-    private String CLIENT_ID = "39164483b245448a9b0816a999571e93";
-    private String CLIENT_SECRET = "8da81ffcd6d943d39e8c1ffa85a901cc";
-    private String AUTH_CODE = "AQCVdXgFau3BDQuU8z89FyiL4BMlqI819arlcLGaDB3J1evGifxrn4xeEUP6rUiSqPozwZomFC-p-xENiWAiH1gIb-fS6bt6cF_LoeCHaDIFPNKy9_HBLDr3RcwBZlzNyIP3mlmoqNL-ptVVUw5_HpNOVcoaIDIXSbD_tTJ-e3di2JnqX8DgPNLAdEfP-ozh-N769uAkzGYuSwcNa-oQT8RA29jlgV5jMzyd6U-g1G1VmA2a8Ip96QPld6uNKNZDIp9BPDxMu7m6emW8KLO8I0UmkcEW1GavaEyrXqPmVeWAdHxmQSTl0931J77y-uhXU-imYfEFa5f5L0Ilouoo6iSiYZ_k6jL94NvjKcJK23V5FKMdO2keQ4amfHG06wHk9tP5PQpibkPOAi53zAI2he95cq0_pAt-Xg5Mt5Upx_BN8RqQuN3oi0fulwBtqhOpf3_DVT7GXDVk_jTBXNfA07FNWvazMcNHvL_YmkmLvklOD4VUUpaHHraIpz_oXAsbCujHG_oEZqunJ2RknW4JcYpc0nbSFzSl1an6RLItgtBiUx1LAKI5lj0cSHzo3yeM3-qFo6cAk8CPz8mO";
-    private String ACCESS_TOKEN = "BQA8KiAHpSCFHYVk_UkjKpsd8p5Mu-sLeEiMztdydmwxyjiR_CINzeU3_q5sx0K6yVdCfkrYgOLmkNRHBhBYdjPLxnBWiPg2KDM9iVNfI29wjgFmC1wKp4GDD7JGU8OsNveqfKUITFLnBgPD4SJDd_Ai1bnzA-GIjWxVFR8oMhkKrPJxZRA49gBhwJMxRLOQ3TKBlFSQVco_RZqWY-Wf5VOSZY5QVonb3gqQsiCvaf-pAvBOqGj-bczkfi5V_G96P-KIoCT4x3gvI9zMJQ";
-    private String DEVICE_ID = "73510ab9cdb61d2f22d2cebb814c604d29f23a3b";
+    private String CLIENT_ID = "";  //insert your Spotify client ID here
+    private String CLIENT_SECRET = "";  //insert your Spotify client secret here
+    private String AUTH_CODE = "";  // insert your auth code from front end here
+    private String ACCESS_TOKEN = "";   //insert your access token here
+    private String DEVICE_ID = "";  //insert your device to play Spotify on here
     private final String BASE_SPOTIFY_URL = "https://api.spotify.com/v1/";
     private String callBackUrl = "http://localhost:8080/dj/authorize";
     private final String AUTHORIZE_URL = "https://accounts.spotify.com/en/authorize";
